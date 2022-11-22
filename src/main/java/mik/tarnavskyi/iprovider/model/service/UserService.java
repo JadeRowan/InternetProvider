@@ -1,12 +1,12 @@
-package mik.tarnavskyi.iprovider.service;
+package mik.tarnavskyi.iprovider.model.service;
 
 import java.util.ArrayList;
 
 
 import lombok.AllArgsConstructor;
-import mik.tarnavskyi.iprovider.dao.UserRepository;
-import mik.tarnavskyi.iprovider.model.TariffPlan;
-import mik.tarnavskyi.iprovider.model.User;
+import mik.tarnavskyi.iprovider.model.dao.UserRepository;
+import mik.tarnavskyi.iprovider.domain.entity.TariffPlan;
+import mik.tarnavskyi.iprovider.domain.entity.User;
 import org.springframework.stereotype.Service;
 
 

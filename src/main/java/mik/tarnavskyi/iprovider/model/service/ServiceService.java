@@ -1,7 +1,7 @@
-package mik.tarnavskyi.iprovider.service;
+package mik.tarnavskyi.iprovider.model.service;
 
 import lombok.AllArgsConstructor;
-import mik.tarnavskyi.iprovider.dao.ServiceRepository;
+import mik.tarnavskyi.iprovider.model.dao.ServiceRepository;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class ServiceService {
     private final ServiceRepository serviceRepository;
 
-    public mik.tarnavskyi.iprovider.model.Service getById(Long serviceId) {
+    public mik.tarnavskyi.iprovider.domain.entity.Service getById(Long serviceId) {
         return serviceRepository.findById(serviceId).orElseThrow();
     }
 }

@@ -1,9 +1,8 @@
 package mik.tarnavskyi.iprovider.controller;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
-import mik.tarnavskyi.iprovider.model.dto.request.UserRequestDto;
-import mik.tarnavskyi.iprovider.service.UserService;
+import mik.tarnavskyi.iprovider.domain.dto.request.UserRequestDto;
+import mik.tarnavskyi.iprovider.model.service.UserService;
 import org.json.JSONObject;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.PatchMapping;

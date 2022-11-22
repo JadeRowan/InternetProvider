@@ -1,4 +1,4 @@
-package mik.tarnavskyi.iprovider.model;
+package mik.tarnavskyi.iprovider.domain.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

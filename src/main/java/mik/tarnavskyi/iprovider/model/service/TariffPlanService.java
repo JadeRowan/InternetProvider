@@ -1,14 +1,12 @@
-package mik.tarnavskyi.iprovider.service;
+package mik.tarnavskyi.iprovider.model.service;
 
 import java.util.List;
 
 
 import lombok.AllArgsConstructor;
-import mik.tarnavskyi.iprovider.dao.TariffPlanRepository;
-import mik.tarnavskyi.iprovider.model.TariffPlan;
-import mik.tarnavskyi.iprovider.model.dto.response.TariffPlanResponseDto;
-import mik.tarnavskyi.iprovider.model.dto.request.TariffPlanRequestDto;
-import org.modelmapper.ModelMapper;
+import mik.tarnavskyi.iprovider.model.dao.TariffPlanRepository;
+import mik.tarnavskyi.iprovider.domain.entity.TariffPlan;
+import mik.tarnavskyi.iprovider.domain.dto.request.TariffPlanRequestDto;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

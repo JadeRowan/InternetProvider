@@ -1,4 +1,4 @@
-package mik.tarnavskyi.iprovider.model.dto.response;
+package mik.tarnavskyi.iprovider.domain.dto.response;
 
 import lombok.Data;
 

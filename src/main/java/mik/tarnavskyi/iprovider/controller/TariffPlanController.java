@@ -5,10 +5,10 @@ import java.util.stream.Collectors;
 
 
 import lombok.AllArgsConstructor;
-import mik.tarnavskyi.iprovider.model.TariffPlan;
-import mik.tarnavskyi.iprovider.model.dto.request.TariffPlanRequestDto;
-import mik.tarnavskyi.iprovider.model.dto.response.TariffPlanResponseDto;
-import mik.tarnavskyi.iprovider.service.TariffPlanService;
+import mik.tarnavskyi.iprovider.domain.entity.TariffPlan;
+import mik.tarnavskyi.iprovider.domain.dto.request.TariffPlanRequestDto;
+import mik.tarnavskyi.iprovider.domain.dto.response.TariffPlanResponseDto;
+import mik.tarnavskyi.iprovider.model.service.TariffPlanService;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
